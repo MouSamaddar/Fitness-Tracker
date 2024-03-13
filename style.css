@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/834294.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  
+  color: white;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.activity-form, .activities, .stats {
+  margin-bottom: 20px;
+}
+
+.activity-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.activity-form input, .activity-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+  border-radius: 3px;
+}
+
+#activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+#add-activity {
+  
+  color: rgb(4, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 620px;
+  border-radius: 4px;
+}
+
+#activity-list li {
+  margin-bottom: 5px;
+}
+
+.stats button {
+  background-color: #4CAF50;
+  color: rgb(250, 249, 249);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stats button:hover {
+  background-color: #3e8e41;
+}
